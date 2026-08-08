@@ -1,3 +1,15 @@
+<!-- dcj-tag:start -->
+```
+██████╗  ██████╗     ██╗
+██╔══██╗██╔════╝     ██║
+██║  ██║██║          ██║
+██║  ██║██║     ██   ██║
+██████╔╝╚██████╗╚█████╔╝
+╚═════╝  ╚═════╝ ╚════╝
+d o t c o m j a c k
+```
+<!-- dcj-tag:end -->
+
 # dispatching-parallel-agents (Claude Code skill)
 
 A rewritten Claude Code skill for dispatching multiple subagents in parallel using the current `Agent` tool. Modernizes the dispatch guidance with the live `Agent` tool's parameter surface (`subagent_type`, `isolation`, `run_in_background`, `model`, `name` + `SendMessage`), corrects the obsolete `Task(...)` tool name, and adds a "read the diff, not the summary" verification pattern.
